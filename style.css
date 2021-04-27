@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  width: 100%;
+  height: 575px;
+  margin-top: 50px;
+}
+
+#header {
+  padding: 12px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  font-family: "Orelega One", cursive;
+}
+
+h1 > span {
+  display: block;
+}
+
+.photo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./images/reese-blevins-dSJ-mAS-NBs-unsplash.jpg);
+  width: 67%;
+  height: 662px;
+  float: right;
+  background-size: cover;
+  background-position: center;
+  margin-top: -150px;
+  margin-right: 20px;
+}
+
+.photo p {
+  position: absolute;
+  left: 550px;
+  bottom: 80px;
+  font-size: 50px;
+  color: azure;
+  font-family: "Playfair Display", serif;
+}
+
+.photo p span {
+  display: block;
+}
+
+#container {
+  padding: 0px 15px;
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  width: 400px;
+  margin-left: 25px;
+}
+
+#email,
+#password,
+#submit {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 0.5px solid #010101;
+  box-sizing: border-box;
+}
+
+.forgetpass {
+  color: #010101;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#submit {
+  cursor: pointer;
+  background-color: #010101;
+  color: aliceblue;
+  border-radius: 3px;
+  font-family: "Mukta", sans-serif;
+}
+
+.makeaccount {
+  text-align: center;
+  margin-top: 68px;
+}
+
+.makeaccount h4 {
+  font-family: "PT Serif", serif;
+  margin-bottom: 30px;
+}
+/**
+.makeaccount button {
+  width: 100%;
+  padding: 15px 0px;
+  background-color: whitesmoke;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 2px;
+  font-family: "Mukta", sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+**/
+.makeaccount a {
+  text-decoration: none;
+  background-color: rgb(234, 236, 236);
+  border: 1px solid #010101;
+  border-radius: 3px;
+  color: #010101;
+  font-family: "Mukta", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 12px 0;
+}
